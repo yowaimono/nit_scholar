@@ -25,6 +25,7 @@ class _PayCardPageState extends State<PayCardPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+          backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Center(child: const Text("校园卡"))), // Changed title
 
